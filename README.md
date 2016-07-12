@@ -42,4 +42,9 @@ git remote add origin https://github.com/zhigangyu/invcost.git
 git push -u origin master
 ```
 
-
+###git upload file
+```
+git add .
+git commit -m "update"
+git push -u origin master
+```
