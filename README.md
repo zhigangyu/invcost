@@ -53,3 +53,12 @@ git add .
 git commit -m "update"
 git push -u origin master
 ```
+
+office 2013 KMS Åú´¦Àí
+@echo off
+cd %ProgramFiles%\Microsoft Office\Office15
+cscript ospp.vbs /sethst:177.18.80.150
+cscript ospp.vbs /act
+cscript ospp.vbs /dstatus
+cscript ospp.vbs /remhst
+pause
