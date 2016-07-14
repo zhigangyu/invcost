@@ -64,3 +64,9 @@ cscript ospp.vbs /dstatus
 cscript ospp.vbs /remhst
 pause
 ```
+
+### Local UAA
+```
+uaac token client get admin # default pass adminsecret
+The default is to use an in-memory RDBMS user store that is pre-populated with a single test users: marissa has password koala.
+```
